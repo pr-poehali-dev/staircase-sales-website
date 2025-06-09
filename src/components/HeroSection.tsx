@@ -12,12 +12,13 @@ const HeroSection = () => {
         <h1 className="text-5xl font-bold text-gray-800 mb-6 font-montserrat">
           Деревянные лестницы
           <br />
-          <span className="text-amber-700">премиум качества</span>
+          <span className="text-amber-700">от производителя №1</span>
         </h1>
 
         <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Изготавливаем лестницы из массива дуба, ясеня и сосны. Гарантия 10
-          лет. Установка за 1 день. Более 500 довольных клиентов.
+          Изготавливаем лестницы из элитных пород дерева с 2010 года.
+          Собственное производство, гарантия 10 лет, установка за 1 день. Цены
+          от производителя без наценок посредников.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

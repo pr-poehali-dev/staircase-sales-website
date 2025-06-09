@@ -12,39 +12,105 @@ const ProductCatalog = () => {
   const products = [
     {
       id: 1,
-      name: "Лестница классическая",
-      material: "Массив дуба",
-      price: "85 000 ₽",
-      originalPrice: "100 000 ₽",
+      name: "Лестница классическая «Аристократ»",
+      material: "Массив дуба премиум",
+      price: "89 000 ₽",
+      originalPrice: "105 000 ₽",
       image:
         "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop",
-      features: ["Высота до 3м", "Подступенки закрыты", "Перила из дуба"],
+      features: [
+        "Высота до 3.5м",
+        "Резные балясины",
+        "Покрытие в 7 слоев",
+        "Антискользящие ступени",
+      ],
       isPopular: true,
       discount: "15%",
     },
     {
       id: 2,
-      name: "Лестница модульная",
+      name: "Лестница модульная «Конструктор»",
       material: "Массив ясеня",
-      price: "65 000 ₽",
-      originalPrice: "75 000 ₽",
+      price: "67 000 ₽",
+      originalPrice: "78 000 ₽",
       image:
         "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400&h=300&fit=crop",
-      features: ["Компактная", "Легкий монтаж", "Современный дизайн"],
+      features: [
+        "Сборка за 4 часа",
+        "Подходит для любых углов",
+        "Современный дизайн",
+        "Гарантия 10 лет",
+      ],
+      isPopular: false,
+      discount: "14%",
+    },
+    {
+      id: 3,
+      name: "Лестница винтовая «Спираль»",
+      material: "Массив бука",
+      price: "78 000 ₽",
+      originalPrice: "90 000 ₽",
+      image:
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop",
+      features: [
+        "Экономия 40% места",
+        "Элегантный вид",
+        "Центральная опора",
+        "Поручень из массива",
+      ],
       isPopular: false,
       discount: "13%",
     },
     {
-      id: 3,
-      name: "Лестница винтовая",
-      material: "Массив сосны",
-      price: "75 000 ₽",
-      originalPrice: "85 000 ₽",
+      id: 4,
+      name: "Лестница П-образная «Комфорт»",
+      material: "Массив сосны элит",
+      price: "95 000 ₽",
+      originalPrice: "115 000 ₽",
+      image:
+        "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400&h=300&fit=crop",
+      features: [
+        "Промежуточная площадка",
+        "Удобный подъем",
+        "Классический стиль",
+        "Ширина 90см",
+      ],
+      isPopular: true,
+      discount: "17%",
+    },
+    {
+      id: 5,
+      name: "Лестница Г-образная «Практик»",
+      material: "Массив лиственницы",
+      price: "72 000 ₽",
+      originalPrice: "82 000 ₽",
       image:
         "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop",
-      features: ["Экономия места", "Элегантный вид", "Прочная конструкция"],
+      features: [
+        "Поворот 90°",
+        "Экономия пространства",
+        "Прочная конструкция",
+        "Натуральная текстура",
+      ],
       isPopular: false,
       discount: "12%",
+    },
+    {
+      id: 6,
+      name: "Лестница мансардная «Чердачная»",
+      material: "Массив березы",
+      price: "45 000 ₽",
+      originalPrice: "52 000 ₽",
+      image:
+        "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400&h=300&fit=crop",
+      features: [
+        "Складная конструкция",
+        "Люк в комплекте",
+        "Малые габариты",
+        "Нагрузка до 200кг",
+      ],
+      isPopular: false,
+      discount: "13%",
     },
   ];
 
@@ -128,7 +194,7 @@ const ProductCatalog = () => {
             size="lg"
             className="border-amber-700 text-amber-700"
           >
-            Посмотреть все модели (12+)
+            Посмотреть все модели (25+)
           </Button>
         </div>
       </div>
