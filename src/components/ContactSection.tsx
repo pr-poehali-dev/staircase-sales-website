@@ -24,7 +24,7 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-2xl font-bold text-amber-700 mb-2">
-                  +7 (495) 123-45-67
+                  +7 (383) 383-03-61 +7 952 905 14 32
                 </p>
                 <p className="text-gray-600">Ежедневно с 9:00 до 20:00</p>
                 <Button className="mt-4 bg-green-600 hover:bg-green-700">
@@ -41,9 +41,9 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-xl font-semibold text-gray-700 mb-2">
-                  info@stairs-master.ru
+                  profi.hobby@yandex.ru
                 </p>
-                <p className="text-gray-600">Ответим в течение 2 часов</p>
+                <p className="text-gray-600">Ответим в течение 15 минут</p>
                 <Button
                   variant="outline"
                   className="mt-4 border-amber-700 text-amber-700"
