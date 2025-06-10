@@ -68,12 +68,47 @@ const ContactSection = () => {
                   <br />
                   Режим работы: Пн-Пт 9:00-18:00
                 </p>
-                <Button
-                  variant="outline"
-                  className="border-blue-600 text-blue-600"
+                <a
+                  href="https://go.2gis.com/JxkvV"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Показать на карте
-                </Button>
+                  <Button
+                    variant="outline"
+                    className="border-blue-600 text-blue-600 hover:bg-blue-50"
+                  >
+                    Показать на карте
+                  </Button>
+                </a>
+              </CardContent>
+            </Card>
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader className="pb-3">
+                <CardTitle className="flex items-center gap-3 text-xl text-gray-800">
+                  🛒 Наш магазин
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-lg text-gray-700 mb-2">
+                  Магазин на площадке Авито
+                </p>
+                <p className="text-gray-600 mb-4">
+                  Готовые лестницы и комплектующие
+                  <br />
+                  Доставка по всей России
+                </p>
+                <a
+                  href="https://avito.ru/brands/lest_profihobby"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outline"
+                    className="border-orange-600 text-orange-600 hover:bg-orange-50"
+                  >
+                    Перейти в магазин
+                  </Button>
+                </a>
               </CardContent>
             </Card>
           </div>
