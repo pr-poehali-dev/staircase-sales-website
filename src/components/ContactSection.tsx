@@ -61,7 +61,7 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 mb-2">
-                  Новосибирск, ул. Плахотного 2А Москва, Рябиновая 41 к1 с6
+                  Новосибирск, ул. Плахотного 2А
                 </p>
                 <p className="text-gray-600 mb-4">
                   Производственный цех и офис
